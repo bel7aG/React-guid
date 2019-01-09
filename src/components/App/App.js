@@ -1,10 +1,11 @@
 import React, { PureComponent } from 'react'
+import { Header } from '../'
 
 export default class App extends PureComponent {
   render() {
     return (
       <div className="container">
-        
+        <Header />
       </div>
     )
   }  
